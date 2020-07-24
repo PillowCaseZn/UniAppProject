@@ -8,7 +8,8 @@
 import os
 from PIL import  Image
 
-folder = "F:/Project/UniAppProject/Icon"
+# folder = "F:/Project/UniAppProject/Icon"
+folder = "/Users/liangzhentao/Desktop/Project/GitHub/UniAppProject/Icon"
 
 image_data = [
 	['drawable',  512],
@@ -26,9 +27,9 @@ image_file = [
 	'splash.png'
 ]
 
-def createImage(size):
-    im = Image.open(imageDirectory+"/icon.png")
-    im.resize((size,size), Image.ANTIALIAS).save(imageDirectory+"/icon.png")
+# def createImage(size):
+#     im = Image.open(imageDirectory+"/icon.png")
+#     im.resize((size,size), Image.ANTIALIAS).save(imageDirectory+"/icon.png")
 
 
 for data  in image_data:
