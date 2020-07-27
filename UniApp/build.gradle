@@ -34,7 +34,7 @@ android {
     lintOptions {
         abortOnError false
     }
-    
+
     aaptOptions {
         additionalParameters '--auto-add-overlay'
         ignoreAssetsPattern "!.svn:!.git:.*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~"
@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.aar", "*.jar"], exclude: [])
+    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
     //noinspection GradleCompatible
     implementation "com.android.support:support-v4:28.0.0"
     //noinspection GradleCompatible
